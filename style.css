@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 20px;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    color: #000;
+}
+
+.header {
+    background-color: #fff;
+    margin: 45px 0;
+}
+
+.list-navbar {
+    font-size: 16px;
+    line-height: 19px;
+    color: #4f5665;
+    list-style-type: none;
+    display: flex;
+    column-gap: 40px;
+}
+
+.box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-lasles-vpn {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.group-sign-in-cta {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.name-logo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0B132A;
+}
+
+.vpn {
+    font-weight: 700;
+}
+
+.sign-in {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0B132A;
+}
+
+.cta-sign-up {
+    font-weight: 600;
+    line-height: 19px;
+    border: 1px solid #F53855;
+    padding: 13px 45px;
+}
+
+.box-1 {
+    display: flex;
+    margin: 43px 0 88px 0;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title-section {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}
+
+.box-text {
+    flex: 1;
+    width: 50%;
+}
+
+.content {
+    max-width: 1140px;
+}
+
+.box-image {
+    flex: 1.5;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin: 20px 0 50px 0;
+}
+
+.bold-laslesvpn {
+    font-weight: 500;
+}
+
+.cta-get-started {
+    background: #F53838;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: none;
+    width: 50%;
+    padding: 17px 0;
+    box-shadow: 3px 27px 30px rgba(245, 56, 56, 0.35);
+}
+
+.icon-menu {
+    width: 5%;
+    display: none;
+}
+
+.users {
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.number {
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+    font-weight: 700;
+}
+
+.user {
+    display: grid;
+    row-gap: 5px;
+}
+
+.box-user {
+    display: flex;
+    column-gap: 36px;
+}
+
+.border-user {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 14px 20px 51px rgba(0, 0, 0, 0.09);
+    padding: 87px 105px 57px 76px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.border {
+    border-right: 2px solid #EEEFF2;
+}
+
+
+/*
+.border-user:before {
+    content: '';
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 1068px;
+    height: 2px;
+    box-shadow: 10px 13px 50px 2px #3c3c41;
+    background: transparent;
+}
+/*
+
+
+/*hover*/
+
+.cta-sign-up:hover {
+    background: #F53838;
+    color: #ffffff;
+}
+
+.item:hover {
+    color: #F53838;
+}
+
+
+/*hover*/
+
+
+/*sizing phone*/
+
+@media only screen and (max-width: 960px) {
+    .list-navbar {
+        display: none;
+    }
+    .icon-menu {
+        width: 25px;
+        display: flex;
+    }
+    .group-sign-in-cta {
+        display: none;
+    }
+    .header {
+        margin: 25px 0;
+    }
+    .box-image {
+        flex: none;
+        margin: 40px 0 20px 0;
+    }
+    .image-illustration {
+        width: 55%;
+    }
+    .title-section {
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .paragraph {
+        font-size: 16px;
+        line-height: 30px;
+        color: #4F5665;
+        margin: 10px 0 40px 0;
+    }
+    .cta-get-started {
+        background: #F53838;
+        border-radius: 10px;
+        font-size: 16px;
+        line-height: 25px;
+        color: #FFFFFF;
+        border: none;
+        width: 100%;
+        padding: 10px 0;
+        box-shadow: 3px 11px 11px rgba(245, 56, 56, 0.35);
+    }
+    .box-1 {
+        display: flex;
+        margin: 20px 0 40px 0;
+        column-gap: 40px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .border-user {
+        background: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        box-shadow: 14px 20px 51px rgba(0, 0, 0, 0.09);
+        padding: 40px 50px 25px 35px;
+        row-gap: 30px;
+    }
+}
+
+
+/*sizing phone*/
+
+
+/* communs*/
+
+.cta {
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50px;
+    background: transparent;
+    color: #F53838;
+}
+
+.image {
+    display: flex;
+}
+
+
+/* communs*/
