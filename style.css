@@ -181,7 +181,7 @@ body {
 
 .group-box {
     display: flex;
-    column-gap: 50px;
+    grid-gap: 50px;
     justify-content: center;
     margin-top: 10px;
     flex-wrap: wrap;
@@ -990,9 +990,6 @@ body {
     }
     .price-12 {
         margin-top: 30px;
-    }
-    .group-box {
-        row-gap: 40px;
     }
     .box-free-plan {
         padding: 50px 50px 50px;
