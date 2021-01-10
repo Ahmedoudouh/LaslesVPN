@@ -1043,6 +1043,7 @@ body {
     }
     .postion-text {
         width: auto;
+        margin: 70px 0 0 0;
     }
     .logos {
         justify-content: center;
