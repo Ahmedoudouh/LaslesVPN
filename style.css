@@ -16,11 +16,6 @@ body {
 .header {
     background-color: #fff;
     margin: 45px 0;
-    padding: 20px 0;
-    position: fixed;
-    top: -45px;
-    right: 0;
-    width: 100%;
 }
 
 .list-navbar {
@@ -932,7 +927,7 @@ body {
     }
     .header {
         margin: none;
-        padding: 20px;
+        padding: 15px;
     }
     .box-image {
         margin: 40px 0 20px 0;
@@ -969,7 +964,7 @@ body {
         row-gap: 30px;
     }
     .box-features {
-        padding: 50px 0 60px 0;
+        margin: 50px 0 60px 0;
         align-items: center;
         column-gap: 170px;
     }
@@ -1043,7 +1038,6 @@ body {
     }
     .postion-text {
         width: auto;
-        margin: 70px 0 0 0;
     }
     .logos {
         justify-content: center;
