@@ -16,6 +16,11 @@ body {
 .header {
     background-color: #fff;
     margin: 45px 0;
+    padding: 20px 0;
+    position: fixed;
+    top: -45px;
+    right: 0;
+    width: 100%;
 }
 
 .list-navbar {
@@ -91,7 +96,8 @@ body {
 
 .content {
     max-width: 1140px;
-    margin: 0 auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .bold {
@@ -180,7 +186,7 @@ body {
 .box-features {
     display: flex;
     justify-content: center;
-    margin: 110px 0 130px 0;
+    padding: 110px 0 130px 0;
     align-items: flex-end;
     column-gap: 170px;
     flex-wrap: wrap;
@@ -925,7 +931,8 @@ body {
         display: none;
     }
     .header {
-        margin: 25px 0;
+        margin: none;
+        padding: 20px;
     }
     .box-image {
         margin: 40px 0 20px 0;
