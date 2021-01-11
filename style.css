@@ -491,7 +491,7 @@ body {
     border-radius: 10px;
     flex-wrap: wrap;
     position: relative;
-    top: 131px;
+    transform: translate( 0, 50%);
     background: #FFFFFF;
 }
 
@@ -964,7 +964,7 @@ body {
         row-gap: 30px;
     }
     .box-features {
-        margin: 50px 0 60px 0;
+        padding: 50px 0 60px 0;
         align-items: center;
         column-gap: 170px;
     }
